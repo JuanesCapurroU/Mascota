@@ -1,9 +1,9 @@
 package com.example.mascotas.models
 
 data class Mascota(
-    val nombre: String,
-    val raza: String,
-    val tamaño: String,
-    val edad: String,
-    val imagenUrl: String
+    var nombre: String,
+    var raza: String,
+    var tamaño: String,
+    var edad: String,
+    var imagenUrl: String
 )
